@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text Summarizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css">
+<body>
+<div class="ui hidden divider"></div>
+<div class="ui container">
+    <div class="ui segment">
+        <h1 class="ui header">
+          <i class="edit icon"></i>
+          <div class="content">Text Summarizer</div></h1>
+        <div class="ui divider"></div>
+        <div class="ui form">
+            <div class="field">
+                <label>Text</label>
+               <form method="POST">
+                  <textarea name="input_box" placeholder="Enter your text here...">{{ input }}</textarea>
+                           <div class="ui divider"></div>
+
+            <button class="ui positive basic button" id="submit">Summarize</button>
+            </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="ui container">
+<div class="ui hidden divider"></div>
+ <div class="ui segment">
+    <h3 class="ui header">
+      <div class="content">Summary</div></h3>
+    <div class="ui segment" id="summary">{{output}}</div>
+  </div>
+</div>
+<div class="ui centered card">
+  <div class="content">
+    <a class="ui center aligned header">Contact</a>
+    <div class="ui center aligned description">
+      <a href="https://www.linkedin.com/in/shukrullo-nazirjonov/">Shukrullo Nazirjonov</a>
+    </div>
+  </div>
+
+  <div class="ui center aligned content">
+    <a href="https://github.com/vocdex"><i class="github icon" ></i></a>
+    <a href="https://www.linkedin.com/in/shukrullo-nazirjonov/"> <i class="linkedin icon"></i></a>
+    <a href="https://twitter.com/seanphilio"> <i class="twitter icon"></i></a>
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+</body>
+</html>
