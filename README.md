@@ -45,8 +45,7 @@ export FLASK_APP=app.py
 flask run
 ```
 ## Issues
-Even though a lighter distilled version of the model is used, it is still large(~423MB)   
-and takes a while to download and cache the model when the user runs the app for the first time.
+Even though a lighter distilled version of the model is used, it is still large(~423MB)and takes a while to download and cache the model when the user runs the app for the first time.
 
 
 
