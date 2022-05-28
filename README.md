@@ -7,7 +7,9 @@
 </div>
 
 <br />
-
+<p align="center">
+  <img src="https://github.com/vocdex/text-summarizer/blob/e5d3cc3c3369dd37cf1164024ed765305b72b80b/text-summarizer-UI.jpeg" width="650" title="hover text">
+</p>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
