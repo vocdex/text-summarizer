@@ -1,42 +1,23 @@
-# This file may be used to create an environment using:
-# $ conda create --name <env> --file <this file>
-# platform: osx-64
-ca-certificates=2022.4.26=hecd8cb5_0
-certifi=2022.5.18.1=py39hecd8cb5_0
-charset-normalizer=2.0.12=pypi_0
-click=8.0.4=py39hecd8cb5_0
-dataclasses=0.8=pyh6d0b6a4_7
-filelock=3.7.0=pypi_0
-flask=2.0.3=pyhd3eb1b0_0
-huggingface-hub=0.7.0=pypi_0
-idna=3.3=pypi_0
-itsdangerous=2.0.1=pyhd3eb1b0_0
-jinja2=3.0.3=pyhd3eb1b0_0
-libcxx=12.0.0=h2f01273_0
-libffi=3.3=hb1e8313_2
-markupsafe=2.0.1=py39h9ed2024_0
-ncurses=6.3=hca72f7f_2
-numpy=1.22.4=pypi_0
-openssl=1.1.1o=hca72f7f_0
-packaging=21.3=pypi_0
-pip=21.2.4=py39hecd8cb5_0
-pyparsing=3.0.9=pypi_0
-python=3.9.12=hdfd78df_0
-pyyaml=6.0=pypi_0
-readline=8.1.2=hca72f7f_1
-regex=2022.4.24=pypi_0
-requests=2.27.1=pypi_0
-setuptools=61.2.0=py39hecd8cb5_0
-sqlite=3.38.3=h707629a_0
-tk=8.6.11=h3fd3227_1
-tokenizers=0.12.1=pypi_0
-torch=1.11.0=pypi_0
-tqdm=4.64.0=pypi_0
-transformers=4.19.2=pypi_0
-typing-extensions=4.2.0=pypi_0
-tzdata=2022a=hda174b7_0
-urllib3=1.26.9=pypi_0
-werkzeug=2.0.3=pyhd3eb1b0_0
-wheel=0.37.1=pyhd3eb1b0_0
-xz=5.2.5=hca72f7f_1
-zlib=1.2.12=h4dc903c_2
+certifi==2022.5.18.1
+charset-normalizer==2.0.12
+click @ file:///opt/concourse/worker/volumes/live/17ca243b-fc66-462b-4bc1-f11ad524e336/volume/click_1646056621177/work
+filelock==3.7.0
+Flask @ file:///opt/conda/conda-bld/flask_1648041541647/work
+huggingface-hub==0.7.0
+idna==3.3
+itsdangerous @ file:///tmp/build/80754af9/itsdangerous_1621432558163/work
+Jinja2 @ file:///opt/conda/conda-bld/jinja2_1647436528585/work
+MarkupSafe @ file:///opt/concourse/worker/volumes/live/1bcf0940-5bf8-4171-61e3-2133f5885e8b/volume/markupsafe_1621528148241/work
+numpy==1.22.4
+packaging==21.3
+pyparsing==3.0.9
+PyYAML==6.0
+regex==2022.4.24
+requests==2.27.1
+tokenizers==0.12.1
+torch==1.11.0
+tqdm==4.64.0
+transformers==4.19.2
+typing_extensions==4.2.0
+urllib3==1.26.9
+Werkzeug @ file:///opt/conda/conda-bld/werkzeug_1645628268370/work
