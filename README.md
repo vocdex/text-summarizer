@@ -21,8 +21,6 @@ Distilled BART is a distilled version of BART that keeps up 97% of BART performa
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 ### Built With
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
@@ -32,8 +30,6 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [Flask](https://flask.palletsprojects.com/en/2.1.x/)
 * [Pytorch](https://pytorch.org/)
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 
 <!-- USAGE EXAMPLES -->
