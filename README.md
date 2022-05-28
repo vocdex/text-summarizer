@@ -13,7 +13,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-It's a simple web app that I created from scratch to practice my Flask and NLP skills. The app summarizes receives a text input and returns 
+It's a simple web app that I created from scratch to practice my Flask and NLP skills. The app receives a text input and returns 
 maximum length of 64 character summary.  
 I made use of HuggingFace pipeline by downloading the checkpoint, DistillBart which is a distilled version of BART.
 BART is a sequence-to-sequence model trained as a denoising autoencoder.  
