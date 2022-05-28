@@ -37,6 +37,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- USAGE EXAMPLES -->
 ## Usage
 ```
+git clone https://github.com/vocdex/text-summarizer.git
 pip install -r requirements.txt
 ```
 ```
