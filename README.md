@@ -25,8 +25,6 @@ Distilled BART is a distilled version of BART that keeps up 97% of BART performa
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
 * [HuggingFace](https://huggingface.co/)
 * [Semantic UI](https://semantic-ui.com/)
 * [Flask](https://flask.palletsprojects.com/en/2.1.x/)
